@@ -1,0 +1,34 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@types/jest": "29.5.12",
+    "@types/node": "20.11.19",
+    "immer": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.22.1",
+    "use-immer": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.56",
+    "@types/react-dom": "18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "5.3.3",
+    "vite": "^5.0.11"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
